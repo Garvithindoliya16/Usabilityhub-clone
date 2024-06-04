@@ -1,0 +1,157 @@
+@media screen and (max-width: 991px) {
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 20%;
+        width: 100%;
+        padding-block: 10px;
+        font-weight: bold;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .example-image{
+        width: 49% ;
+        height: 180px;
+        
+    }
+
+    .example-area{
+        gap: 10px;
+    }
+
+    .cta-section{
+        padding-block: 80px;
+    }
+    .footer4th{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-section{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .primary-button{
+        width: 80vw;
+    }
+
+    .header-left{
+        width: 100vw;
+        text-align: center;
+    }
+    .header-right img{
+        height: 350px;
+    }
+
+    .features-card{
+       width: calc(50% - 10px)
+    }
+
+    .companies-header{
+        margin-top: 80px;
+    }
+
+    .features-area{
+        gap: 10px;
+    }
+
+    .formedia{
+        flex-direction: column;
+    }
+
+    .big-feature-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .big-feature-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .example-section{
+        margin-top: 50px;
+    }
+
+    .footer{
+        flex-direction: column;
+        
+       
+    }
+
+    .footer-image{
+        padding-bottom: 2px;
+
+    }
+}
+
+@media  screen and (max-width:544px) {
+    .example-image{
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:479px) {
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    } 
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .features-card{
+        width: 100%
+    }
+
+    
+    .subfooter{
+        text-align: center;
+    }
+
+    .subfooter a{
+        color: black;
+    }
+
+    .footer-element{
+        margin-top: 10px;
+        flex-direction: column;
+        
+    }
+
+    .footer{
+        height: 100vh;
+    }
+
+    .features-card img{
+        text-align: center;
+    }
+}
